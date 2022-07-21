@@ -13,5 +13,8 @@ router.use(require('./partyRoutes'));
 // importing voterRotes
 router.use(require('./voterRoutes'));
 
+// importing voteRoutes
+router.use(require('./voteRoutes'));
+
 // allows the export to different 
 module.exports = router; 
